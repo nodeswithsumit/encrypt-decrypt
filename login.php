@@ -1,11 +1,9 @@
 <?php
 
-# go to the url : https://shorturl.at/WtckM to see code. 
-
-$host = 'ibmice.czgm84kc6wqr.ap-south-1.rds.amazonaws.com';
-$dbname = 'demo';
-$username = 'iceadmin';
-$password = 'TheAnalytix';
+$host = 'localhost';
+$dbname = 'encryption_demo';
+$username = 'root';
+$password = '';
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 
